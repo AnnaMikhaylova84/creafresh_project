@@ -1,0 +1,186 @@
+.logo
+  svg
+    width: 210px
+    height: 65px
+    margin-left: -70px
+    cursor: pointer
+    -webkit-transition: all .3s ease-out
+    -moz-transition: all .3s ease-out
+    -ms-transition: all .3s ease-out
+    -o-transition: all .3s ease-out
+    transition: all .3s ease-out
+    svg .st0
+      fill-rule: evenodd
+      clip-rule: evenodd
+      fill: url(#black)
+      // animation: slide 2s infinite
+    path.st1
+      opacity: 0
+    path, ellipse
+      -webkit-transform: rotate(0deg)
+      -moz-transform: rotate(0deg)
+      -ms-transform: rotate(0deg)
+      -o-transform: rotate(0deg)
+      transform: rotate(0deg)
+      transform-origin: 50% 50%
+      -webkit-transition: all .3s ease-out
+      -moz-transition: all .3s ease-out
+      -ms-transition: all .3s ease-out
+      -o-transition: all .3s ease-out
+      transition: all .3s ease-out
+      // transition: fill 1s ease-out
+  svg:hover
+    margin-left: 0px
+  svg:hover path.st1
+    opacity: 1
+  svg:hover .st0
+    fill-rule: evenodd
+    clip-rule: evenodd
+    fill: url(#color)
+    -webkit-transform: rotate(360deg)
+    -moz-transform: rotate(360deg)
+    -ms-transform: rotate(360deg)
+    -o-transform: rotate(360deg)
+    transform: rotate(360deg)
+    transform-origin: 50% 50%
+  svg:hover .st1
+    fill-rule: evenodd
+    clip-rule: evenodd
+    fill: #292F39
+  svg:hover .st2
+    fill-rule: evenodd
+    clip-rule: evenodd
+    fill: #31D3AC
+    -webkit-transform: rotate(360deg)
+    -moz-transform: rotate(360deg)
+    -ms-transform: rotate(360deg)
+    -o-transform: rotate(360deg)
+    transform: rotate(360deg)
+    transform-origin: 50% 50%
+  svg:hover .st3
+    fill-rule: evenodd
+    clip-rule: evenodd
+    fill: #2ADDAA
+    -webkit-transform: rotate(360deg)
+    -moz-transform: rotate(360deg)
+    -ms-transform: rotate(360deg)
+    -o-transform: rotate(360deg)
+    transform: rotate(360deg)
+    transform-origin: 50% 50%
+  svg:hover .st4
+    fill-rule: evenodd
+    clip-rule: evenodd
+    fill: #2ADCAA
+    -webkit-transform: rotate(360deg)
+    -moz-transform: rotate(360deg)
+    -ms-transform: rotate(360deg)
+    -o-transform: rotate(360deg)
+    transform: rotate(360deg)
+    transform-origin: 50% 50%
+  svg:hover .st5
+    fill-rule: evenodd
+    clip-rule: evenodd
+    fill: #299393
+    -webkit-transform: rotate(360deg)
+    -moz-transform: rotate(360deg)
+    -ms-transform: rotate(360deg)
+    -o-transform: rotate(360deg)
+    transform: rotate(360deg)
+    transform-origin: 50% 50%
+  svg:hover .st6
+    fill-rule: evenodd
+    clip-rule: evenodd
+    fill: #367E87
+    -webkit-transform: rotate(360deg)
+    -moz-transform: rotate(360deg)
+    -ms-transform: rotate(360deg)
+    -o-transform: rotate(360deg)
+    transform: rotate(360deg)
+    transform-origin: 50% 50%
+  // .clip,
+  // .st0
+  // animation: slide 8s infinite
+
+@keyframes slide
+  from
+    transform: translateY(-15px)
+
+  50%
+    transform: translateY(-5px)
+
+  to
+    transform: translateY(-15px)
+// $base: #C8C8A9
+// $primary: #FE4365
+// body
+//   background: $base
+//   text-align: center
+//
+// .logo
+//   fill: $primary
+//
+// .test
+//   width: 100%
+//   // text-align: center
+//   height: 100vh
+//   display: flex
+//   justify-content: center
+// .test svg
+//   width: 300px
+// .clip
+//   animation: slide 8s infinite
+// @keyframes slide
+//   from
+//     transform: translateY(-15px)
+//   50%
+//     transform: translateY(-5px)
+//   to
+//     transform: translateY(-15px)
+
+
+// .banner_logo
+  // position: absolute
+  // top: 90px
+  // left: 30px
+  // display: flex
+  // width: 100%
+  // flex: 1 0 50%
+  // svg
+  //   width: 690px
+  //   max-width: 690px
+  //   margin: auto
+  // #Shape_1_copy_4,
+  // #Ellipse_4_copy_10,
+  // #Shape_1_copy_4_1_,
+  // #Ellipse_4_copy_10_3_,
+  // #Shape_1_copy_4_2_,
+  // #Ellipse_4_copy_10_6_
+  //   opacity: 1
+
+// @media screen and (max-width: 1980px)
+//   .banner_logo
+//     svg
+//       width: 590px
+
+// @media screen and (max-width: 1600px)
+//   .banner_logo
+//     svg
+//       width: 480px
+//
+// @media screen and (max-width: 1280px)
+//   .banner_logo
+//     svg
+//       width: 392px
+
+@media screen and (max-width: 1024px)
+  .banner_logo
+    svg
+      // width: 350px
+      // max-width: 690px
+      #Shape_1_copy_4,
+      #Ellipse_4_copy_10,
+      #Shape_1_copy_4_1_,
+      #Ellipse_4_copy_10_3_,
+      #Shape_1_copy_4_2_,
+      #Ellipse_4_copy_10_6_
+        opacity: 0

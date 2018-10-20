@@ -1,0 +1,43 @@
+.description {
+  display: block;
+}
+.description .description_btn{
+  margin: 0 auto;
+}
+
+.menu .menu_nav .menu_list {
+  /* margin-top: 100px; */
+
+}
+
+@media screen and (max-width: 640px) {
+  .footer {
+    max-width: 600px;
+  }
+
+  .footer .footer_wrap {
+    display: block;
+  }
+
+}
+
+@media screen and (max-width: 1023px) {
+  .menu .menu_nav .menu_list {
+    height: 200px;
+
+  }
+}
+
+
+.logo svg .st0 {
+
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: url(#black);
+}
+.logo svg:hover .st0 {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: url(#color);
+
+}

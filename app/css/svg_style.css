@@ -1,0 +1,122 @@
+.logo svg {
+  width: 210px;
+  height: 65px;
+  margin-left: -70px;
+  cursor: pointer;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  -ms-transition: all .3s ease-out;
+  -o-transition: all .3s ease-out;
+  transition: all .3s ease-out; }
+  .logo svg svg .st0 {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    fill: url(#black); }
+  .logo svg path.st1 {
+    opacity: 0; }
+  .logo svg path, .logo svg ellipse {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    transform-origin: 50% 50%;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out; }
+
+.logo svg:hover {
+  margin-left: 0px; }
+
+.logo svg:hover path.st1 {
+  opacity: 1; }
+
+.logo svg:hover .st0 {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: url(#color);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+  transform-origin: 50% 50%; }
+
+.logo svg:hover .st1 {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: #292F39; }
+
+.logo svg:hover .st2 {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: #31D3AC;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+  transform-origin: 50% 50%; }
+
+.logo svg:hover .st3 {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: #2ADDAA;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+  transform-origin: 50% 50%; }
+
+.logo svg:hover .st4 {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: #2ADCAA;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+  transform-origin: 50% 50%; }
+
+.logo svg:hover .st5 {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: #299393;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+  transform-origin: 50% 50%; }
+
+.logo svg:hover .st6 {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: #367E87;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+  transform-origin: 50% 50%; }
+
+@keyframes slide {
+  from {
+    transform: translateY(-15px); }
+  50% {
+    transform: translateY(-5px); }
+  to {
+    transform: translateY(-15px); } }
+
+@media screen and (max-width: 1024px) {
+  .banner_logo svg #Shape_1_copy_4,
+  .banner_logo svg #Ellipse_4_copy_10,
+  .banner_logo svg #Shape_1_copy_4_1_,
+  .banner_logo svg #Ellipse_4_copy_10_3_,
+  .banner_logo svg #Shape_1_copy_4_2_,
+  .banner_logo svg #Ellipse_4_copy_10_6_ {
+    opacity: 0; } }
