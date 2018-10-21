@@ -61,13 +61,23 @@ var heightMenuList = function() {
 // if menu height < 440px
 
 function styleMenuMini() {
-  if (document.documentElement.clientHeight < 441) {
-    var head  = document.getElementsByTagName("head")[0];
-    var link  = document.createElement("link");
-    link.rel  = "stylesheet";
-    link.href = "css/menu_height.css";
-    head.appendChild(link);
+  var head  = document.getElementsByTagName('head')[0];
+  var linkS = head.querySelectorAll('link');
+  var heightDesktop = document.documentElement.clientHeight;
+
+  for (var i = 0; i < linkS.length; i++) {
+    var linkHref = linkS[i].href;
+    if (linkHref.indexOf('menu_height.css') !== -1) {
+      head.removeChild(linkS[i]);
+    }
   }
+  if (heightDesktop < 441) {
+      var link  = document.createElement('link');
+      link.rel  = 'stylesheet';
+      link.href = 'css/menu_height.css';
+      head.appendChild(link);
+  }
+
 }
 
 
