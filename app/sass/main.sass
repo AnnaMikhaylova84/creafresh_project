@@ -83,57 +83,65 @@ body
   max-width: 1500px
   margin: 0 auto
 .top
+  // position: fixed
+  // top: 10px
+  // width: 100%
+  // display: -webkit-flex
+  // display: -moz-flex
+  // display: -ms-flex
+  // display: -o-flex
+  // display: flex
+  // justify-content: space-between
+  // align-items: center
+  // z-index: 10
+.logo
   position: fixed
   top: 10px
-  width: 100%
-  display: -webkit-flex
-  display: -moz-flex
-  display: -ms-flex
-  display: -o-flex
-  display: flex
-  justify-content: space-between
-  align-items: center
+  left: 10px
+  // margin-left: 10px
+  cursor: pointer
   z-index: 10
-  .logo
-    margin-left: 10px
-    cursor: pointer
-  .menu_btn
-    width: 55px
-    margin-right: 10px
-    cursor: pointer
-    height: 35px
-    span
-      display: block
-      height: 3px
-      width: 100%
-      background: #000
-      margin: 4px 0
-      -webkit-transition: all .3s ease-out
-      -moz-transition: all .3s ease-out
-      -ms-transition: all .3s ease-out
-      -o-transition: all .3s ease-out
-      transition: all .3s ease-out
-      float: right
-      clear: both
-    span:nth-of-type(3)
-      width: 60%
-  .menu_btn:hover span
-    background: #40d3ad
-  .menu_btn.open
+.menu_btn
+  position: fixed
+  top: 25px
+  right: 15px
+  width: 55px
+  // margin-right: 10px
+  cursor: pointer
+  height: 35px
+  z-index: 10
+  span
     display: block
-    position: relative
-    span
-      position: absolute
-      top: 15px
-      width: 50px
-    span:nth-of-type(1)
-      transform: rotate(45deg)
-      transform-origin: center center
-    span:nth-of-type(2)
-      display: none
-    span:nth-of-type(3)
-      transform: rotate(-45deg)
-      transform-origin: center center
+    height: 3px
+    width: 100%
+    background: #000
+    margin: 4px 0
+    -webkit-transition: all .3s ease-out
+    -moz-transition: all .3s ease-out
+    -ms-transition: all .3s ease-out
+    -o-transition: all .3s ease-out
+    transition: all .3s ease-out
+    float: right
+    clear: both
+  span:nth-of-type(3)
+    width: 60%
+.menu_btn:hover span
+  background: #40d3ad
+.menu_btn.open
+  display: block
+  position: fixed
+  span
+    position: absolute
+    top: 15px
+    width: 50px
+  span:nth-of-type(1)
+    transform: rotate(45deg)
+    transform-origin: center center
+  span:nth-of-type(2)
+    display: none
+  span:nth-of-type(3)
+    transform: rotate(-45deg)
+    transform-origin: center center
 
 .menu.open
   display: block
@@ -629,6 +637,7 @@ body
         display: block
         .contact_link
           margin-bottom: 15px
+          margin-right: 0
 @media screen and (max-width: 639px)
   .wrapper
     max-width: 600px
@@ -654,9 +663,10 @@ body
         fill: #40d3ad
     .menu_footer
       font-size: 0.8em
-
   .banner
     min-height: 380px
+    .banner_title
+      padding: 0 30px
   .gallery
     .gallery_box
       justify-content: center
@@ -672,5 +682,12 @@ body
     min-width: 300px
     .description_text
       margin-bottom: 50px
+
+@media screen and (max-width: 479px)
+  .footer_wrap
+    display: block
+    padding: 0
+    .footer_info
+      margin: 0 15px 40px
 
 @import 'svg_style'

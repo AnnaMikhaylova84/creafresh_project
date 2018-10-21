@@ -1,0 +1,19 @@
+.menu .menu_nav {
+  font-size: 1.2em; }
+  .menu .menu_nav .icon {
+    width: 30px;
+    height: 30px; }
+  .menu .menu_nav .menu_list {
+    display: block; }
+    .menu .menu_nav .menu_list .menu_item {
+      margin: 10px auto; }
+
+.menu .menu_footer {
+  font-size: 0.8em; }
+  .menu .menu_footer .footer_wrap {
+    margin: 10px auto; }
+    .menu .menu_footer .footer_wrap .footer_info .location,
+    .menu .menu_footer .footer_wrap .footer_info .social {
+      margin-bottom: 7px; }
+    .menu .menu_footer .footer_wrap .footer_info .contacts .contact_link {
+      margin: 0 10px 7px; }
